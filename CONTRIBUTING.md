@@ -21,7 +21,7 @@ Basic Java/Kotlin knowledge is required.
 To support multiple Minecraft versions at once, we use [Cloche](https://github.com/terrarium-earth/cloche), a lib for Minecraft Multiversion using Kotlin Multiplatform.
 Code shared between the Minecraft versions is in src/common/main or src/main (depending on the project), version specific code in src/<version>.
 
-If Code will be relatively different between two versions, you should use KMP:
+If Code will be relatively different between two versions, you should use KMP. E.g.:
 
 <details>
 <summary>Using KMP</summary>  
@@ -53,6 +53,8 @@ actual fun Entity.save(): CompoundTag {
 ```
 
 </details>
+
+IntelliJ might scream at you with `'actual fun Entity.save(): CompoundTag' has no corresponding expected declaration`. It's a little stupid, you can ignore this Error, your game still boots.
 
 If Code will be minor (y=10 instead of y=12), you can use `tech.thatgravyboat.skyblockapi.utils.McVersionGroup.MC_<version>.isActive` instead.
 
