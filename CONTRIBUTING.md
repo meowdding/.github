@@ -54,11 +54,11 @@ actual fun Entity.save(): CompoundTag {
 
 </details>
 
-If Code will be minor (y=10 instead of y=12), you can use `ttech.thatgravyboat.skyblockapi.utils.McVersionGroup.MC_<version>.isActive` instead.
+If Code will be minor (y=10 instead of y=12), you can use `tech.thatgravyboat.skyblockapi.utils.McVersionGroup.MC_<version>.isActive` instead.
 
 ## Dependencies
 
-Meowdding uses these core libraries:
+Meowdding mainly uses these custom libraries:
 
 ### [SkyBlockAPI](https://github.com/SkyBlockAPI/SkyblockAPI)
 Handles SkyBlock features:
