@@ -19,7 +19,7 @@ Basic Java/Kotlin knowledge is required.
 ## Writing Code & Booting up the Game
 
 To support multiple Minecraft versions at once, we use [Cloche](https://github.com/terrarium-earth/cloche), a lib for Minecraft Multiversion using Kotlin Multiplatform.
-Code shared between the Minecraft versions is in src/common/main or src/main (depending on the project), version specific code in src/<version>.
+Code shared between the Minecraft versions is in src/common/main or src/main (depending on the project), version specific code in src/\<version>.
 
 If Code will be relatively different between two versions, you should use KMP. E.g.:
 
